@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hextris - Play the Classic Hexagonal Tetris Game Online </title>
+    <meta name="description" content="Play Hextris online - A modern twist on the classic Tetris game with hexagonal blocks. Challenge your spatial awareness and reflexes in this addictive puzzle game.">
+    <link rel="canonical" href="https://goldensentence.xyz" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'apple-blue': '#007AFF',
+                        'apple-gray': '#8E8E93',
+                        'apple-light-gray': '#F2F2F7',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-apple-light-gray min-h-screen">
+    <header class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <h1 class="text-4xl md:text-5xl font-bold text-center text-apple-blue mb-4">Hextris</h1>
+            <p class="text-xl text-center text-apple-gray max-w-3xl mx-auto">
+                Experience the perfect blend of Tetris and hexagonal puzzle gameplay in this modern classic.
+            </p>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="aspect-w-16 aspect-h-9">
+                    <iframe src="https://www.hextris.io" 
+                            class="w-full h-[600px] border-0"
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="space-y-8">
+                <section>
+                    <h2 class="text-2xl font-semibold text-apple-blue mb-4">About Hextris</h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        Hextris is a modern take on the classic Tetris game, featuring hexagonal blocks and innovative gameplay mechanics. 
+                        Created by a team of passionate developers, this game combines the familiar falling-block concept with a fresh 
+                        hexagonal twist that challenges your spatial awareness in new ways.
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-semibold text-apple-blue mb-4">How to Play</h2>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Rotate the falling blocks to match the hexagonal grid</li>
+                        <li>Clear lines by completing rows of hexagons</li>
+                        <li>Chain combos for higher scores</li>
+                        <li>Use special power-ups to help clear the board</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-semibold text-apple-blue mb-4">Game Features</h2>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Responsive design that works on all devices</li>
+                        <li>Multiple game modes and difficulty levels</li>
+                        <li>Global leaderboard system</li>
+                        <li>Customizable controls and themes</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-semibold text-apple-blue mb-4">Open Source</h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        Hextris is an open-source project, available on GitHub. Feel free to contribute, 
+                        report issues, or fork the project to create your own version.
+                    </p>
+                    <a href="https://hextris.github.io/hextris" 
+                       class="inline-block mt-4 px-6 py-3 bg-apple-blue text-white rounded-lg hover:bg-blue-600 transition-colors">
+                        View on GitHub
+                    </a>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-white mt-12 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-apple-gray">
+            <p>&copy; 2024 Goldensentence.xyz. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 

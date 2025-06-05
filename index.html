@@ -12,8 +12,8 @@
 
         gtag('config', 'G-YB2KZCSKFY');
     </script>
-    <title>Hextris - Play the Classic Hexagonal Tetris Game Online </title>
-    <meta name="description" content="Play Hextris online - A modern twist on the classic Tetris game with hexagonal blocks. Challenge your spatial awareness and reflexes in this addictive puzzle game.">
+    <title>Daily Quote - Wisdom for Life</title>
+    <meta name="description" content="Discover daily inspirational quotes from great minds throughout history. A new perspective every day.">
     <link rel="canonical" href="https://goldensentence.xyz" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -21,85 +21,214 @@
             theme: {
                 extend: {
                     colors: {
-                        'apple-blue': '#007AFF',
-                        'apple-gray': '#8E8E93',
-                        'apple-light-gray': '#F2F2F7',
+                        'primary': '#2D3748',
+                        'secondary': '#4A5568',
+                        'accent': '#4299E1',
                     }
                 }
             }
         }
     </script>
+    <style>
+        body {
+            background-image: url('/first_web/1.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        .content-wrapper {
+            background-color: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            min-height: 100vh;
+            position: relative;
+            z-index: 1;
+        }
+        .quote-card {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.85));
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .quote-card:hover {
+            transform: translateY(-5px);
+        }
+        .quote-text {
+            font-family: 'Georgia', serif;
+            line-height: 1.8;
+            position: relative;
+            padding: 0 2rem;
+        }
+        .quote-text::before,
+        .quote-text::after {
+            content: '"';
+            font-size: 4rem;
+            color: rgba(66, 153, 225, 0.2);
+            position: absolute;
+            font-family: 'Georgia', serif;
+        }
+        .quote-text::before {
+            top: -1rem;
+            left: 0;
+        }
+        .quote-text::after {
+            bottom: -2rem;
+            right: 0;
+        }
+        .quote-author {
+            font-style: italic;
+            color: #4A5568;
+            position: relative;
+            padding-left: 2rem;
+        }
+        .quote-author::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: #4299E1;
+        }
+        .action-button {
+            transition: all 0.3s ease;
+        }
+        .action-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(66, 153, 225, 0.2);
+        }
+    </style>
 </head>
-<body class="bg-apple-light-gray min-h-screen">
-    <header class="bg-white shadow-sm">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-            <h1 class="text-4xl md:text-5xl font-bold text-center text-apple-blue mb-4">Hextris</h1>
-            <p class="text-xl text-center text-apple-gray max-w-3xl mx-auto">
-                Experience the perfect blend of Tetris and hexagonal puzzle gameplay in this modern classic.
-            </p>
-        </div>
-    </header>
+<body class="min-h-screen">
+    <div class="content-wrapper min-h-screen">
+        <header class="bg-white/80 shadow-sm backdrop-blur-sm">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+                <h1 class="text-4xl md:text-5xl font-bold text-center text-primary mb-4">Daily Quote</h1>
+                <p class="text-xl text-center text-secondary max-w-2xl mx-auto">
+                    Wisdom from great minds, delivered daily
+                </p>
+            </div>
+        </header>
 
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
-                <div class="aspect-w-16 aspect-h-9">
-                    <iframe src="https://www.hextris.io" 
-                            class="w-full h-[600px] border-0"
-                            allowfullscreen>
-                    </iframe>
+        <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="quote-card rounded-xl p-12 mb-12">
+                <div class="text-center">
+                    <p class="text-2xl md:text-3xl text-primary mb-8 leading-relaxed quote-text" id="quote-text">
+                        Loading...
+                    </p>
+                    <p class="text-lg text-secondary mb-8 quote-author" id="quote-author">
+                        Author
+                    </p>
+                    <div class="flex justify-center space-x-6">
+                        <button onclick="shareQuote()" class="action-button px-8 py-3 bg-accent text-white rounded-lg hover:bg-blue-600 transition-colors">
+                            Share
+                        </button>
+                        <button onclick="refreshQuote()" class="action-button px-8 py-3 bg-gray-200 text-primary rounded-lg hover:bg-gray-300 transition-colors">
+                            New Quote
+                        </button>
+                    </div>
                 </div>
             </div>
 
-            <div class="space-y-8">
-                <section>
-                    <h2 class="text-2xl font-semibold text-apple-blue mb-4">About Hextris</h2>
-                    <p class="text-gray-700 leading-relaxed">
-                        Hextris is a modern take on the classic Tetris game, featuring hexagonal blocks and innovative gameplay mechanics. 
-                        Created by a team of passionate developers, this game combines the familiar falling-block concept with a fresh 
-                        hexagonal twist that challenges your spatial awareness in new ways.
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white/90 rounded-xl shadow-lg p-6 backdrop-blur-sm">
+                    <h2 class="text-xl font-semibold text-primary mb-4">About Daily Quote</h2>
+                    <p class="text-secondary leading-relaxed">
+                        We curate timeless wisdom from great thinkers, leaders, and visionaries throughout history. 
+                        Each quote is carefully selected to inspire, motivate, and provide fresh perspectives on life.
                     </p>
-                </section>
-
-                <section>
-                    <h2 class="text-2xl font-semibold text-apple-blue mb-4">How to Play</h2>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Rotate the falling blocks to match the hexagonal grid</li>
-                        <li>Clear lines by completing rows of hexagons</li>
-                        <li>Chain combos for higher scores</li>
-                        <li>Use special power-ups to help clear the board</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h2 class="text-2xl font-semibold text-apple-blue mb-4">Game Features</h2>
-                    <ul class="list-disc list-inside text-gray-700 space-y-2">
-                        <li>Responsive design that works on all devices</li>
-                        <li>Multiple game modes and difficulty levels</li>
-                        <li>Global leaderboard system</li>
-                        <li>Customizable controls and themes</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h2 class="text-2xl font-semibold text-apple-blue mb-4">Open Source</h2>
-                    <p class="text-gray-700 leading-relaxed">
-                        Hextris is an open-source project, available on GitHub. Feel free to contribute, 
-                        report issues, or fork the project to create your own version.
+                </div>
+                <div class="bg-white/90 rounded-xl shadow-lg p-6 backdrop-blur-sm">
+                    <h2 class="text-xl font-semibold text-primary mb-4">Subscribe</h2>
+                    <p class="text-secondary leading-relaxed mb-4">
+                        Get your daily dose of wisdom delivered to your inbox every morning.
                     </p>
-                    <a href="https://hextris.github.io/hextris" 
-                       class="inline-block mt-4 px-6 py-3 bg-apple-blue text-white rounded-lg hover:bg-blue-600 transition-colors">
-                        View on GitHub
-                    </a>
-                </section>
+                    <div class="flex">
+                        <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none focus:border-accent">
+                        <button class="px-6 py-2 bg-accent text-white rounded-r-lg hover:bg-blue-600 transition-colors">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
             </div>
-        </div>
-    </main>
+        </main>
 
-    <footer class="bg-white mt-12 py-8">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-apple-gray">
-            <p>&copy; 2024 Goldensentence.xyz. All rights reserved.</p>
-        </div>
-    </footer>
+        <footer class="bg-white/80 mt-12 py-8 backdrop-blur-sm">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-secondary">
+                <p>&copy; 2025 Goldensentence.xyz. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        let quotes = [];
+        let categories = [];
+
+        // Load quotes from JSON file
+        async function loadQuotes() {
+            try {
+                const response = await fetch('quotes.json');
+                const data = await response.json();
+                quotes = data.quotes;
+                categories = data.categories;
+                updateQuote(); // Show quote after data is loaded
+            } catch (error) {
+                console.error('Error loading quotes:', error);
+                document.getElementById('quote-text').textContent = 'Error loading quotes. Please try again later.';
+            }
+        }
+
+        // Get today's date in YYYY-MM-DD format
+        function getTodayString() {
+            const today = new Date();
+            return today.toISOString().split('T')[0];
+        }
+
+        // Get a deterministic quote for today
+        function getTodaysQuote() {
+            const today = getTodayString();
+            const dateNum = parseInt(today.replace(/-/g, ''));
+            return quotes[dateNum % quotes.length];
+        }
+
+        function getRandomQuote() {
+            return quotes[Math.floor(Math.random() * quotes.length)];
+        }
+
+        function updateQuote() {
+            if (quotes.length === 0) return;
+            const quote = getTodaysQuote();
+            document.getElementById('quote-text').textContent = quote.text;
+            document.getElementById('quote-author').textContent = `— ${quote.author}`;
+        }
+
+        function refreshQuote() {
+            if (quotes.length === 0) return;
+            const quote = getRandomQuote();
+            document.getElementById('quote-text').textContent = quote.text;
+            document.getElementById('quote-author').textContent = `— ${quote.author}`;
+        }
+
+        function shareQuote() {
+            const text = document.getElementById('quote-text').textContent;
+            const author = document.getElementById('quote-author').textContent;
+            const shareText = `${text}\n${author}\n\nFrom Daily Quote - goldensentence.xyz`;
+            
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Daily Quote',
+                    text: shareText,
+                    url: window.location.href
+                });
+            } else {
+                navigator.clipboard.writeText(shareText).then(() => {
+                    alert('Copied to clipboard!');
+                });
+            }
+        }
+
+        // Load quotes when page loads
+        loadQuotes();
+    </script>
 </body>
 </html> 

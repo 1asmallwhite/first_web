@@ -1,0 +1,82 @@
+{
+  "quotes": [
+    {
+      "id": 1,
+      "text": "The only way to do great work is to love what you do.",
+      "author": "Steve Jobs",
+      "category": "work",
+      "tags": ["motivation", "career", "passion"]
+    },
+    {
+      "id": 2,
+      "text": "In three words I can sum up everything I've learned about life: it goes on.",
+      "author": "Robert Frost",
+      "category": "life",
+      "tags": ["wisdom", "perspective", "resilience"]
+    },
+    {
+      "id": 3,
+      "text": "The future belongs to those who believe in the beauty of their dreams.",
+      "author": "Eleanor Roosevelt",
+      "category": "inspiration",
+      "tags": ["dreams", "future", "belief"]
+    },
+    {
+      "id": 4,
+      "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+      "author": "Winston Churchill",
+      "category": "success",
+      "tags": ["perseverance", "courage", "resilience"]
+    },
+    {
+      "id": 5,
+      "text": "The best way to find yourself is to lose yourself in the service of others.",
+      "author": "Mahatma Gandhi",
+      "category": "wisdom",
+      "tags": ["service", "self-discovery", "purpose"]
+    },
+    {
+      "id": 6,
+      "text": "Life is what happens while you're busy making other plans.",
+      "author": "John Lennon",
+      "category": "life",
+      "tags": ["perspective", "present", "wisdom"]
+    },
+    {
+      "id": 7,
+      "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "author": "Nelson Mandela",
+      "category": "inspiration",
+      "tags": ["resilience", "courage", "perseverance"]
+    },
+    {
+      "id": 8,
+      "text": "Innovation distinguishes between a leader and a follower.",
+      "author": "Steve Jobs",
+      "category": "leadership",
+      "tags": ["innovation", "leadership", "business"]
+    },
+    {
+      "id": 9,
+      "text": "The only limit to our realization of tomorrow will be our doubts of today.",
+      "author": "Franklin D. Roosevelt",
+      "category": "inspiration",
+      "tags": ["future", "belief", "potential"]
+    },
+    {
+      "id": 10,
+      "text": "It does not matter how slowly you go as long as you do not stop.",
+      "author": "Confucius",
+      "category": "wisdom",
+      "tags": ["perseverance", "patience", "progress"]
+    }
+  ],
+  "categories": [
+    "work",
+    "life",
+    "inspiration",
+    "success",
+    "wisdom",
+    "leadership"
+  ]
+} 

@@ -69,6 +69,706 @@
       "author": "Confucius",
       "category": "wisdom",
       "tags": ["perseverance", "patience", "progress"]
+    },
+    {
+      "id": 11,
+      "text": "Believe you can and you're halfway there.",
+      "author": "Theodore Roosevelt",
+      "category": "motivation",
+      "tags": ["belief", "confidence", "achievement"]
+    },
+    {
+      "id": 12,
+      "text": "It is during our darkest moments that we must focus to see the light.",
+      "author": "Aristotle",
+      "category": "inspiration",
+      "tags": ["hope", "resilience", "perspective"]
+    },
+    {
+      "id": 13,
+      "text": "The way to get started is to quit talking and begin doing.",
+      "author": "Walt Disney",
+      "category": "action",
+      "tags": ["motivation", "action", "productivity"]
+    },
+    {
+      "id": 14,
+      "text": "Don't let yesterday take up too much of today.",
+      "author": "Will Rogers",
+      "category": "life",
+      "tags": ["present", "wisdom", "mindfulness"]
+    },
+    {
+      "id": 15,
+      "text": "You learn more from failure than from success. Don't let it stop you. Failure builds character.",
+      "author": "Unknown",
+      "category": "growth",
+      "tags": ["failure", "learning", "character"]
+    },
+    {
+      "id": 16,
+      "text": "If you are not willing to risk the usual, you will have to settle for the ordinary.",
+      "author": "Jim Rohn",
+      "category": "risk",
+      "tags": ["courage", "extraordinary", "growth"]
+    },
+    {
+      "id": 17,
+      "text": "Trust yourself. You know more than you think you do.",
+      "author": "Benjamin Spock",
+      "category": "confidence",
+      "tags": ["self-trust", "intuition", "belief"]
+    },
+    {
+      "id": 18,
+      "text": "All our dreams can come true if we have the courage to pursue them.",
+      "author": "Walt Disney",
+      "category": "dreams",
+      "tags": ["courage", "dreams", "pursuit"]
+    },
+    {
+      "id": 19,
+      "text": "The secret of getting ahead is getting started.",
+      "author": "Mark Twain",
+      "category": "action",
+      "tags": ["beginning", "progress", "motivation"]
+    },
+    {
+      "id": 20,
+      "text": "I've missed more than 9000 shots in my career. I've lost almost 300 games. 26 times I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed.",
+      "author": "Michael Jordan",
+      "category": "success",
+      "tags": ["failure", "perseverance", "success"]
+    },
+    {
+      "id": 21,
+      "text": "Don't be afraid to give up the good to go for the great.",
+      "author": "John D. Rockefeller",
+      "category": "excellence",
+      "tags": ["greatness", "sacrifice", "ambition"]
+    },
+    {
+      "id": 22,
+      "text": "Where there is love there is life.",
+      "author": "Mahatma Gandhi",
+      "category": "love",
+      "tags": ["love", "life", "meaning"]
+    },
+    {
+      "id": 23,
+      "text": "What lies behind you and what lies in front of you, pales in comparison to what lies inside of you.",
+      "author": "Ralph Waldo Emerson",
+      "category": "wisdom",
+      "tags": ["inner-strength", "potential", "self"]
+    },
+    {
+      "id": 24,
+      "text": "It is never too late to be what you might have been.",
+      "author": "George Eliot",
+      "category": "potential",
+      "tags": ["transformation", "possibility", "hope"]
+    },
+    {
+      "id": 25,
+      "text": "A person who never made a mistake never tried anything new.",
+      "author": "Albert Einstein",
+      "category": "learning",
+      "tags": ["mistakes", "innovation", "growth"]
+    },
+    {
+      "id": 26,
+      "text": "The person who says it cannot be done should not interrupt the person who is doing it.",
+      "author": "Chinese Proverb",
+      "category": "determination",
+      "tags": ["persistence", "doubt", "action"]
+    },
+    {
+      "id": 27,
+      "text": "There are no traffic jams along the extra mile.",
+      "author": "Roger Staubach",
+      "category": "excellence",
+      "tags": ["effort", "dedication", "success"]
+    },
+    {
+      "id": 28,
+      "text": "It is never too late to give up our prejudices.",
+      "author": "Henry David Thoreau",
+      "category": "growth",
+      "tags": ["change", "open-mindedness", "wisdom"]
+    },
+    {
+      "id": 29,
+      "text": "You are never too old to set another goal or to dream a new dream.",
+      "author": "Malala Yousafzai",
+      "category": "dreams",
+      "tags": ["age", "goals", "possibility"]
+    },
+    {
+      "id": 30,
+      "text": "Difficulties in life are intended to make us better, not bitter.",
+      "author": "Dan Reeves",
+      "category": "resilience",
+      "tags": ["challenges", "growth", "attitude"]
+    },
+    {
+      "id": 31,
+      "text": "The mind is everything. What you think you become.",
+      "author": "Buddha",
+      "category": "mindset",
+      "tags": ["thoughts", "mindset", "transformation"]
+    },
+    {
+      "id": 32,
+      "text": "Strive not to be a success, but rather to be of value.",
+      "author": "Albert Einstein",
+      "category": "purpose",
+      "tags": ["value", "service", "meaning"]
+    },
+    {
+      "id": 33,
+      "text": "Two roads diverged in a wood, and I—I took the one less traveled by, and that has made all the difference.",
+      "author": "Robert Frost",
+      "category": "choices",
+      "tags": ["individuality", "path", "courage"]
+    },
+    {
+      "id": 34,
+      "text": "I attribute my success to this: I never gave or took any excuse.",
+      "author": "Florence Nightingale",
+      "category": "success",
+      "tags": ["accountability", "determination", "excuses"]
+    },
+    {
+      "id": 35,
+      "text": "You miss 100% of the shots you don't take.",
+      "author": "Wayne Gretzky",
+      "category": "opportunity",
+      "tags": ["action", "risk", "chances"]
+    },
+    {
+      "id": 36,
+      "text": "I alone cannot change the world, but I can cast a stone across the water to create many ripples.",
+      "author": "Mother Teresa",
+      "category": "impact",
+      "tags": ["influence", "change", "ripple-effect"]
+    },
+    {
+      "id": 37,
+      "text": "What we think, we become.",
+      "author": "Buddha",
+      "category": "mindset",
+      "tags": ["thoughts", "transformation", "consciousness"]
+    },
+    {
+      "id": 38,
+      "text": "Whether you think you can or you think you can't, you're right.",
+      "author": "Henry Ford",
+      "category": "belief",
+      "tags": ["mindset", "belief", "attitude"]
+    },
+    {
+      "id": 39,
+      "text": "The two most important days in your life are the day you are born and the day you find out why.",
+      "author": "Mark Twain",
+      "category": "purpose",
+      "tags": ["purpose", "meaning", "life"]
+    },
+    {
+      "id": 40,
+      "text": "Your limitation—it's only your imagination.",
+      "author": "Unknown",
+      "category": "potential",
+      "tags": ["limitations", "imagination", "mindset"]
+    },
+    {
+      "id": 41,
+      "text": "Push yourself, because no one else is going to do it for you.",
+      "author": "Unknown",
+      "category": "motivation",
+      "tags": ["self-motivation", "effort", "responsibility"]
+    },
+    {
+      "id": 42,
+      "text": "Great things never come from comfort zones.",
+      "author": "Unknown",
+      "category": "growth",
+      "tags": ["comfort-zone", "challenge", "growth"]
+    },
+    {
+      "id": 43,
+      "text": "Dream it. Wish it. Do it.",
+      "author": "Unknown",
+      "category": "action",
+      "tags": ["dreams", "action", "achievement"]
+    },
+    {
+      "id": 44,
+      "text": "Success doesn't just find you. You have to go out and get it.",
+      "author": "Unknown",
+      "category": "success",
+      "tags": ["pursuit", "effort", "achievement"]
+    },
+    {
+      "id": 45,
+      "text": "The harder you work for something, the greater you'll feel when you achieve it.",
+      "author": "Unknown",
+      "category": "achievement",
+      "tags": ["hard-work", "satisfaction", "accomplishment"]
+    },
+    {
+      "id": 46,
+      "text": "Dream bigger. Do bigger.",
+      "author": "Unknown",
+      "category": "ambition",
+      "tags": ["dreams", "action", "scale"]
+    },
+    {
+      "id": 47,
+      "text": "Don't stop when you're tired. Stop when you're done.",
+      "author": "Unknown",
+      "category": "perseverance",
+      "tags": ["persistence", "completion", "endurance"]
+    },
+    {
+      "id": 48,
+      "text": "Wake up with determination. Go to bed with satisfaction.",
+      "author": "Unknown",
+      "category": "daily-life",
+      "tags": ["determination", "satisfaction", "productivity"]
+    },
+    {
+      "id": 49,
+      "text": "Do something today that your future self will thank you for.",
+      "author": "Sean Patrick Flanery",
+      "category": "future",
+      "tags": ["future", "investment", "wisdom"]
+    },
+    {
+      "id": 50,
+      "text": "Little things make big days.",
+      "author": "Unknown",
+      "category": "daily-life",
+      "tags": ["small-things", "appreciation", "mindfulness"]
+    },
+    {
+      "id": 51,
+      "text": "It's going to be hard, but hard does not mean impossible.",
+      "author": "Unknown",
+      "category": "challenge",
+      "tags": ["difficulty", "possibility", "perseverance"]
+    },
+    {
+      "id": 52,
+      "text": "Don't wait for opportunity. Create it.",
+      "author": "Unknown",
+      "category": "opportunity",
+      "tags": ["creation", "initiative", "action"]
+    },
+    {
+      "id": 53,
+      "text": "Sometimes we're tested not to show our weaknesses, but to discover our strengths.",
+      "author": "Unknown",
+      "category": "strength",
+      "tags": ["testing", "strength", "discovery"]
+    },
+    {
+      "id": 54,
+      "text": "The key to success is to focus on goals, not obstacles.",
+      "author": "Unknown",
+      "category": "focus",
+      "tags": ["focus", "goals", "obstacles"]
+    },
+    {
+      "id": 55,
+      "text": "Dream it. Believe it. Build it.",
+      "author": "Unknown",
+      "category": "creation",
+      "tags": ["dreams", "belief", "building"]
+    },
+    {
+      "id": 56,
+      "text": "Progress, not perfection.",
+      "author": "Unknown",
+      "category": "growth",
+      "tags": ["progress", "perfection", "improvement"]
+    },
+    {
+      "id": 57,
+      "text": "Be yourself; everyone else is already taken.",
+      "author": "Oscar Wilde",
+      "category": "authenticity",
+      "tags": ["authenticity", "individuality", "self"]
+    },
+    {
+      "id": 58,
+      "text": "In the middle of every difficulty lies opportunity.",
+      "author": "Albert Einstein",
+      "category": "opportunity",
+      "tags": ["difficulty", "opportunity", "perspective"]
+    },
+    {
+      "id": 59,
+      "text": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+      "author": "Zig Ziglar",
+      "category": "growth",
+      "tags": ["goals", "personal-growth", "transformation"]
+    },
+    {
+      "id": 60,
+      "text": "If you want to lift yourself up, lift up someone else.",
+      "author": "Booker T. Washington",
+      "category": "service",
+      "tags": ["helping", "service", "growth"]
+    },
+    {
+      "id": 61,
+      "text": "The best time to plant a tree was 20 years ago. The second best time is now.",
+      "author": "Chinese Proverb",
+      "category": "action",
+      "tags": ["timing", "action", "beginning"]
+    },
+    {
+      "id": 62,
+      "text": "Your only limit is your mind.",
+      "author": "Unknown",
+      "category": "mindset",
+      "tags": ["limits", "mind", "potential"]
+    },
+    {
+      "id": 63,
+      "text": "If you're not willing to learn, no one can help you. If you're determined to learn, no one can stop you.",
+      "author": "Zig Ziglar",
+      "category": "learning",
+      "tags": ["learning", "determination", "growth"]
+    },
+    {
+      "id": 64,
+      "text": "You don't have to be great to get started, but you have to get started to be great.",
+      "author": "Les Brown",
+      "category": "beginning",
+      "tags": ["starting", "greatness", "action"]
+    },
+    {
+      "id": 65,
+      "text": "A goal is not always meant to be reached, it often serves simply as something to aim at.",
+      "author": "Bruce Lee",
+      "category": "goals",
+      "tags": ["goals", "direction", "purpose"]
+    },
+    {
+      "id": 66,
+      "text": "The only person you are destined to become is the person you decide to be.",
+      "author": "Ralph Waldo Emerson",
+      "category": "choice",
+      "tags": ["choice", "destiny", "self-determination"]
+    },
+    {
+      "id": 67,
+      "text": "Success is walking from failure to failure with no loss of enthusiasm.",
+      "author": "Winston Churchill",
+      "category": "resilience",
+      "tags": ["failure", "enthusiasm", "persistence"]
+    },
+    {
+      "id": 68,
+      "text": "You can't use up creativity. The more you use, the more you have.",
+      "author": "Maya Angelou",
+      "category": "creativity",
+      "tags": ["creativity", "abundance", "expression"]
+    },
+    {
+      "id": 69,
+      "text": "The difference between ordinary and extraordinary is that little extra.",
+      "author": "Jimmy Johnson",
+      "category": "excellence",
+      "tags": ["excellence", "effort", "distinction"]
+    },
+    {
+      "id": 70,
+      "text": "Don't wish it were easier; wish you were better.",
+      "author": "Jim Rohn",
+      "category": "improvement",
+      "tags": ["improvement", "challenge", "growth"]
+    },
+    {
+      "id": 71,
+      "text": "The way I see it, if you want the rainbow, you gotta put up with the rain.",
+      "author": "Dolly Parton",
+      "category": "resilience",
+      "tags": ["patience", "reward", "endurance"]
+    },
+    {
+      "id": 72,
+      "text": "It always seems impossible until it's done.",
+      "author": "Nelson Mandela",
+      "category": "possibility",
+      "tags": ["impossible", "achievement", "perspective"]
+    },
+    {
+      "id": 73,
+      "text": "If you can dream it, you can do it.",
+      "author": "Walt Disney",
+      "category": "dreams",
+      "tags": ["dreams", "possibility", "achievement"]
+    },
+    {
+      "id": 74,
+      "text": "Life is 10% what happens to you and 90% how you react to it.",
+      "author": "Charles R. Swindoll",
+      "category": "attitude",
+      "tags": ["attitude", "reaction", "control"]
+    },
+    {
+      "id": 75,
+      "text": "The only impossible journey is the one you never begin.",
+      "author": "Tony Robbins",
+      "category": "beginning",
+      "tags": ["journey", "beginning", "possibility"]
+    },
+    {
+      "id": 76,
+      "text": "Quality is not an act, it is a habit.",
+      "author": "Aristotle",
+      "category": "excellence",
+      "tags": ["quality", "habits", "excellence"]
+    },
+    {
+      "id": 77,
+      "text": "Champions keep playing until they get it right.",
+      "author": "Billie Jean King",
+      "category": "persistence",
+      "tags": ["persistence", "practice", "mastery"]
+    },
+    {
+      "id": 78,
+      "text": "Turn your wounds into wisdom.",
+      "author": "Oprah Winfrey",
+      "category": "wisdom",
+      "tags": ["wisdom", "healing", "growth"]
+    },
+    {
+      "id": 79,
+      "text": "The expert in anything was once a beginner.",
+      "author": "Helen Hayes",
+      "category": "learning",
+      "tags": ["expertise", "beginning", "mastery"]
+    },
+    {
+      "id": 80,
+      "text": "Don't let what you cannot do interfere with what you can do.",
+      "author": "John Wooden",
+      "category": "focus",
+      "tags": ["focus", "limitations", "ability"]
+    },
+    {
+      "id": 81,
+      "text": "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
+      "author": "Christian D. Larson",
+      "category": "self-belief",
+      "tags": ["self-belief", "inner-strength", "obstacles"]
+    },
+    {
+      "id": 82,
+      "text": "Start where you are. Use what you have. Do what you can.",
+      "author": "Arthur Ashe",
+      "category": "action",
+      "tags": ["starting", "resources", "action"]
+    },
+    {
+      "id": 83,
+      "text": "The greatest wealth is to live content with little.",
+      "author": "Plato",
+      "category": "contentment",
+      "tags": ["contentment", "wealth", "simplicity"]
+    },
+    {
+      "id": 84,
+      "text": "You can't go back and change the beginning, but you can start where you are and change the ending.",
+      "author": "C.S. Lewis",
+      "category": "change",
+      "tags": ["change", "present", "future"]
+    },
+    {
+      "id": 85,
+      "text": "The best way to predict the future is to create it.",
+      "author": "Peter Drucker",
+      "category": "future",
+      "tags": ["future", "creation", "control"]
+    },
+    {
+      "id": 86,
+      "text": "Don't count the days, make the days count.",
+      "author": "Muhammad Ali",
+      "category": "time",
+      "tags": ["time", "purpose", "value"]
+    },
+    {
+      "id": 87,
+      "text": "Life isn't about waiting for the storm to pass... it's about learning to dance in the rain.",
+      "author": "Vivian Greene",
+      "category": "resilience",
+      "tags": ["resilience", "adaptation", "joy"]
+    },
+    {
+      "id": 88,
+      "text": "Everything you've ever wanted is on the other side of fear.",
+      "author": "George Addair",
+      "category": "courage",
+      "tags": ["fear", "courage", "achievement"]
+    },
+    {
+      "id": 89,
+      "text": "Hardships often prepare ordinary people for an extraordinary destiny.",
+      "author": "C.S. Lewis",
+      "category": "destiny",
+      "tags": ["hardship", "destiny", "preparation"]
+    },
+    {
+      "id": 90,
+      "text": "The difference between a successful person and others is not a lack of strength, not a lack of knowledge, but rather a lack of will.",
+      "author": "Vince Lombardi",
+      "category": "willpower",
+      "tags": ["willpower", "success", "determination"]
+    },
+    {
+      "id": 91,
+      "text": "Success is not the key to happiness. Happiness is the key to success.",
+      "author": "Albert Schweitzer",
+      "category": "happiness",
+      "tags": ["happiness", "success", "fulfillment"]
+    },
+    {
+      "id": 92,
+      "text": "The only way to achieve the impossible is to believe it is possible.",
+      "author": "Charles Kingsleigh",
+      "category": "belief",
+      "tags": ["belief", "impossible", "achievement"]
+    },
+    {
+      "id": 93,
+      "text": "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
+      "author": "Roy T. Bennett",
+      "category": "courage",
+      "tags": ["fear", "dreams", "heart"]
+    },
+    {
+      "id": 94,
+      "text": "If you want something you've never had, you must be willing to do something you've never done.",
+      "author": "Thomas Jefferson",
+      "category": "change",
+      "tags": ["change", "new-experience", "growth"]
+    },
+    {
+      "id": 95,
+      "text": "You are braver than you believe, stronger than you seem, and smarter than you think.",
+      "author": "A.A. Milne",
+      "category": "self-worth",
+      "tags": ["courage", "strength", "intelligence"]
+    },
+    {
+      "id": 96,
+      "text": "A year from now you may wish you had started today.",
+      "author": "Karen Lamb",
+      "category": "action",
+      "tags": ["regret", "action", "time"]
+    },
+    {
+      "id": 97,
+      "text": "Fall seven times, stand up eight.",
+      "author": "Japanese Proverb",
+      "category": "resilience",
+      "tags": ["resilience", "persistence", "recovery"]
+    },
+    {
+      "id": 98,
+      "text": "Your positive action combined with positive thinking results in success.",
+      "author": "Shiv Khera",
+      "category": "positivity",
+      "tags": ["positive-thinking", "action", "success"]
+    },
+    {
+      "id": 99,
+      "text": "The only person you should try to be better than is the person you were yesterday.",
+      "author": "Unknown",
+      "category": "self-improvement",
+      "tags": ["self-improvement", "comparison", "growth"]
+    },
+    {
+      "id": 100,
+      "text": "Life begins at the end of your comfort zone.",
+      "author": "Neale Donald Walsch",
+      "category": "comfort-zone",
+      "tags": ["comfort-zone", "growth", "life"]
+    },
+    {
+      "id": 101,
+      "text": "What we achieve inwardly will change outer reality.",
+      "author": "Plutarch",
+      "category": "inner-growth",
+      "tags": ["inner-growth", "reality", "transformation"]
+    },
+    {
+      "id": 102,
+      "text": "Be the change you wish to see in the world.",
+      "author": "Mahatma Gandhi",
+      "category": "change",
+      "tags": ["change", "leadership", "example"]
+    },
+    {
+      "id": 103,
+      "text": "The journey of a thousand miles begins with one step.",
+      "author": "Lao Tzu",
+      "category": "beginning",
+      "tags": ["journey", "beginning", "progress"]
+    },
+    {
+      "id": 104,
+      "text": "Yesterday is history, tomorrow is a mystery, today is a gift of God, which is why we call it the present.",
+      "author": "Eleanor Roosevelt",
+      "category": "present",
+      "tags": ["present", "time", "mindfulness"]
+    },
+    {
+      "id": 105,
+      "text": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+      "author": "Ralph Waldo Emerson",
+      "category": "innovation",
+      "tags": ["innovation", "leadership", "originality"]
+    },
+    {
+      "id": 106,
+      "text": "The most difficult thing is the decision to act, the rest is merely tenacity.",
+      "author": "Amelia Earhart",
+      "category": "decision",
+      "tags": ["decision", "action", "tenacity"]
+    },
+    {
+      "id": 107,
+      "text": "Keep your face always toward the sunshine—and shadows will fall behind you.",
+      "author": "Walt Whitman",
+      "category": "optimism",
+      "tags": ["optimism", "positivity", "perspective"]
+    },
+    {
+      "id": 108,
+      "text": "What matters most is how well you walk through the fire.",
+      "author": "Charles Bukowski",
+      "category": "resilience",
+      "tags": ["resilience", "adversity", "strength"]
+    },
+    {
+      "id": 109,
+      "text": "The cave you fear to enter holds the treasure you seek.",
+      "author": "Joseph Campbell",
+      "category": "courage",
+      "tags": ["fear", "courage", "treasure"]
+    },
+    {
+      "id": 110,
+      "text": "We cannot direct the wind, but we can adjust our sails.",
+      "author": "Dolly Parton",
+      "category": "adaptation",
+      "tags": ["adaptation", "control", "flexibility"]
     }
   ],
   "categories": [
@@ -77,6 +777,60 @@
     "inspiration",
     "success",
     "wisdom",
-    "leadership"
+    "leadership",
+    "motivation",
+    "action",
+    "growth",
+    "risk",
+    "confidence",
+    "dreams",
+    "excellence",
+    "love",
+    "potential",
+    "learning",
+    "determination",
+    "resilience",
+    "mindset",
+    "purpose",
+    "choices",
+    "opportunity",
+    "impact",
+    "belief",
+    "ambition",
+    "achievement",
+    "daily-life",
+    "future",
+    "challenge",
+    "strength",
+    "focus",
+    "creation",
+    "authenticity",
+    "service",
+    "beginning",
+    "goals",
+    "choice",
+    "creativity",
+    "improvement",
+    "possibility",
+    "attitude",
+    "persistence",
+    "self-belief",
+    "contentment",
+    "change",
+    "time",
+    "courage",
+    "destiny",
+    "willpower",
+    "happiness",
+    "self-worth",
+    "positivity",
+    "self-improvement",
+    "comfort-zone",
+    "inner-growth",
+    "present",
+    "innovation",
+    "decision",
+    "optimism",
+    "adaptation"
   ]
-} 
+}
